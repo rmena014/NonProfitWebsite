@@ -1,9 +1,9 @@
 :root {
-  --periwink: rgb(146, 134, 253);
+  --periwink: #9286fd;
   --darkgray: #282828;
   --teal: #08a8b0;
-  --mint: rgb(167, 250, 229);
-  --cream: rgb(255, 247, 209);
+  --mint: #a7fae5;
+  --cream: #fff7d1;
 }
 
 * {
