@@ -1,0 +1,11 @@
+:root {
+  --periwink: rgb(146, 134, 253);
+  --darkgray: rgb(40, 40, 40);
+  --teal: rgb(7, 168, 177);
+  --mint: rgb(167, 250, 229);
+  --cream: rgb(255, 247, 209);
+}
+
+* {
+  box-sizing: border-box;
+}
