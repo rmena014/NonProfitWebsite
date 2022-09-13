@@ -9,20 +9,20 @@ nav {
   justify-content: space-between;
   background: linear-gradient(
     135deg,
-    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.412),
     rgba(255, 255, 255, 0)
   );
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.37);
-  z-index: 2;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.242);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.37);
+  z-index: 1;
 }
 
 .logo {
   display: flex;
-  height: 90px;
+  height: 100px;
   width: auto;
   text-decoration: none;
   padding-left: 10px;
@@ -36,6 +36,7 @@ nav {
 nav ul li {
   display: inline-block;
   padding: 20px 10px;
+  padding-right: 15px;
 }
 
 nav ul li:hover {
@@ -46,7 +47,7 @@ nav ul li:hover {
 nav ul li a {
   font-family: "Lora", serif;
   text-decoration: none;
-  color: #08a8b0;
+  color: #0cdde8;
   font-size: 20px;
 }
 
@@ -60,9 +61,9 @@ nav ul li a:hover {
 section .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/77IHKSK2EDXO5JG6DCJ2TVQDQM.jpeg");
-  filter: blur(5px);
-  -webkit-filter: blur(2px);
-  height: 100vh;
+  filter: blur(2px);
+  -webkit-filter: blur(3px);
+  height: 100%;
   width: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,4 +73,13 @@ section .hero-image {
   top: 0;
   left: 0;
   right: 0;
+}
+
+h2 {
+  font-size: 50px;
+  padding-top: 25%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
