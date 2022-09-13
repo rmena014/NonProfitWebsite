@@ -1,0 +1,112 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.412),
+      rgba(255, 255, 255, 0)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.242);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.37);
+    z-index: 1;
+  }
+  .logo {
+    display: flex;
+    height: 100px;
+    width: auto;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  .logo:hover {
+    transform: scale(1.2);
+    transition: 0.8s;
+  }
+  nav ul li {
+    display: inline-block;
+    padding: 20px 10px;
+    padding-right: 15px;
+  }
+  nav ul li:hover {
+    transform: scale(1.3);
+    transition: 0.6s;
+  }
+  nav ul li a {
+    font-family: "Lora", serif;
+    text-decoration: none;
+    color: #0CDDE8;
+    font-size: 20px;
+  }
+  nav ul li a:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #FFF7D1;
+    font-size: 20px;
+  }
+
+  contactHero{
+    position:relative;
+   text-align:center;
+   background-color:#0CDDE8;
+   height:450px;
+   width:200px;
+ }
+ 
+ .contactCentered{
+   position:absolute;
+   top: 50%;
+   bottom: 50%;
+   transform: translate(-50%, -50%);
+   left: 50%;
+   font-weight: bold;
+   font-size: 80px;
+   background-color: grey;
+ }
+ 
+ main p{
+   text-align: left;
+   font-size: 20px;
+ }
+ 
+ main h3{
+   text-align: center;
+   font-size: 21px;
+ }
+ 
+ body{
+   background-color: gray;
+ }
+ 
+ footer p{
+   text-align:center;
+ }
+ 
+ input[type=text], select, textarea {
+   width: 50%; 
+   padding: 15px 20px 0px 0px; 
+   border: 2px solid currentcolor; 
+   border-radius: 4px; 
+   box-sizing: border-box; 
+   margin-top: 20px; 
+   margin-bottom: 16px; 
+   resize: vertical;
+   text-align:left;
+   display:inline-block;
+ }
+ 
+ input[type=submit] {
+   background-color: gray;
+   color: white;
+   padding: 15px 20px;
+   border: none;
+   border-radius: 30px;
+ 
+ }
+ .button{
+   text-align: center;
+ }
+ .container{
+   text-align: center;
+ }
