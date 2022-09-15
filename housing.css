@@ -1,0 +1,155 @@
+/* housing page styles */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+body {
+  background-color: var(--darkgray);
+}
+.housing-title {
+  font-size: 3rem;
+  color: var(--periwink);
+}
+h1,
+h2 {
+  font-family: "Lora", serif;
+}
+h3,
+p {
+  font-family: "Abhaya Libre", serif;
+}
+section {
+  padding: 2rem 9%;
+}
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 3.5rem;
+  font-size: 1.7rem;
+  color: var(--darkgray);
+  cursor: pointer;
+  text-align: center;
+}
+/* .btn:hover {
+  background: var(--teal);
+  color: var(--cream);
+} */
+.housing .housing-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.housing .housing-container .box {
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #fff;
+}
+.housing .housing-container .box .house-image {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 25rem;
+}
+.housing .housing-container .box .house-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.2s linear;
+}
+.housing .housing-container .box:hover .house-image img {
+  transform: scale(1.1);
+}
+.housing .housing-container .box .house-image .status {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  display: flex;
+}
+.housing .housing-container .box .house-image .status h2 {
+  font-family: "Cardo", serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  margin-left: 1rem;
+}
+.housing .housing-container .box .house-info {
+  padding: 1.5rem;
+}
+.housing .housing-container .box .house-info .price {
+  display: flex;
+  align-items: center;
+}
+.housing .housing-container .box .house-info .price h3 {
+  font-size: 2rem;
+  margin-right: auto;
+}
+.housing .housing-container .box .house-info .price a {
+  color: var(--teal);
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  background: var(--darkgray);
+}
+.housing .housing-container .box .house-info .price a:hover {
+  color: var(--mint);
+  background-color: var(--periwink);
+}
+.housing .housing-container .box .house-info .location {
+  padding: 1rem 0;
+}
+.housing .housing-container .box .house-info .location h3 {
+  font-size: 2.5rem;
+  color: var(--darkgray);
+}
+.housing .housing-container .box .house-info .location p {
+  font-size: 1.5rem;
+  color: var(--darkgray);
+  line-height: 1.5;
+  padding-top: 0.5rem;
+}
+.housing .housing-container .box .house-info .house-size {
+  padding: 0.5rem 0;
+  display: flex;
+}
+.housing .housing-container .box .house-info .house-size h3 {
+  flex: 1;
+  padding: 1rem;
+  border: 0.3rem solid rgba(0, 0, 0, 0.1);
+  color: var(--darkgray);
+  font-size: 1.6rem;
+}
+.housing .housing-container .box .house-info .house-size h3 i {
+  color: black;
+  padding-left: 0.5rem;
+}
+.housing .housing-container .box .house-info .button {
+  display: flex;
+  gap: 1rem;
+}
+.housing .housing-container .box .house-info .button .btn {
+  flex: 1;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  color: var(--cream);
+  background-color: var(--darkgray);
+}
