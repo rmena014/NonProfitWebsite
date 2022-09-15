@@ -9,7 +9,7 @@ nav {
   justify-content: space-between;
   background: linear-gradient(
     135deg,
-    rgba(255, 255, 255, 0.412),
+    rgba(255, 255, 255, 0.137),
     rgba(255, 255, 255, 0)
   );
   backdrop-filter: blur(10px);
@@ -85,11 +85,57 @@ section .hero-image {
   right: 0;
 }
 
-h2 {
+.textBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.textBox h1 {
   font-size: 50px;
-  padding-top: 25%;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #fff7d1;
+  font-family: "Lora", serif;
+}
+
+.textBox p {
+  color: #08a8b0;
+  padding: 10px;
+  font-family: "Abhaya Libre", serif;
+}
+
+.bttn {
+  display: inline-block;
+  text-decoration: none;
+  color: #08a8b0;
+  font-size: 25px;
+  font-family: "Abhaya Libre", serif;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 12px 34px;
+  font-size: 16px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.bttn:hover {
+  border: 1px solid #fff7d1;
+  color: #fff7d1;
+  transition: 0.5s;
+}
+
+@media (max-width: 700px) {
+  .textBox h1 {
+    font-size: 20px;
+  }
+  nav ul li {
+    display: block;
+  }
+
+  nav ul {
+    position: absolute;
+    background: gray;
+  }
 }
